@@ -1,0 +1,15 @@
+<html>
+<body>
+    <p id="demo">Display the result here.</p>
+
+    <script> 
+    document.getElementById("demo").innerHTML = "The temperature is " + toFahrenheit(100) + " Fahrenheit";
+
+        function toFahrenheit(celcius) {
+            return (9/5 * celcius) + 32;
+        }
+       
+    </script>
+
+</body>
+</html>
